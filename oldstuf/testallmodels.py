@@ -1,8 +1,9 @@
 __author__ = 'coenjonker'
 
 import sys
+
 from coen_models import MostLikelyClassPerRegion
-from load_data import load_data
+from predictionmachine.load_data import load_data
 
 
 class Model(object):
