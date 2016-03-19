@@ -1,9 +1,7 @@
 import numpy as np
-import sklearn.dummy
-import sklearn.svm
-from PredictionMachine import PredictionMachine
+
 from coen_models import MostLikelyClassPerRegion, MostLikelyClassPerWeekPerDistrict
-import sys
+from predictionmachine.PredictionMachine import PredictionMachine
 
 # features_path = '/home/peter/Documents/kaggle_SFCrime/data/train.npy'
 # labels_path   = '/home/peter/Documents/kaggle_SFCrime/data/labels.npy'
