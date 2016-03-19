@@ -15,6 +15,5 @@ def load_data(f):
     # Add weeknumbers
     df['WeekNumber'] = df['Dates'].apply(wc.calc_week)
     
-    # return the data frame\
-    return df
-	
+    # return the data frame
+    return d
